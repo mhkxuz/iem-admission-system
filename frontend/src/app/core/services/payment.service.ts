@@ -16,7 +16,7 @@ import {
 })
 export class PaymentService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'http://localhost:5000/api/payments';
+  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/payments';
 
   /**
    * Applicant: Check admission confirmation & fee eligibility

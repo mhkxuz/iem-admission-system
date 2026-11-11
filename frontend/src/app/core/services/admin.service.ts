@@ -81,7 +81,7 @@ export interface StatusUpdateResult {
 })
 export class AdminService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'http://localhost:5000/api/admin';
+  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/admin';
 
   /**
    * Fetch admin dashboard metrics and recent submissions

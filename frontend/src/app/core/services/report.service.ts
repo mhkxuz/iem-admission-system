@@ -18,7 +18,7 @@ import {
 })
 export class ReportService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'http://localhost:5000/api/admin/reports';
+  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/admin/reports';
 
   private buildParams(filters?: ReportFilterParams): HttpParams {
     let params = new HttpParams();
