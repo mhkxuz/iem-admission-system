@@ -1,0 +1,54 @@
+<div class="app-root-layout">
+  <app-navbar></app-navbar>
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <span class="f-inst-name">Institute of Engineering &amp; Management</span>
+            <span class="f-sub">Online Admission Management System &bull; Kolkata</span>
+          </div>
+          <p class="f-desc">
+            Empowering aspiring engineers and professionals through innovation, research, and holistic education.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="f-col-title">Admissions</h4>
+          <ul class="f-links">
+            <li><a routerLink="/programmes">Academic Programmes</a></li>
+            <li><a routerLink="/admission-process">Admission Process</a></li>
+            <li><a routerLink="/fees">Tuition &amp; Fees</a></li>
+            <li><a routerLink="/announcements">Official Circulars</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="f-col-title">Portal Support</h4>
+          <ul class="f-links">
+            <li><a routerLink="/faqs">Frequently Asked Questions</a></li>
+            <li><a routerLink="/auth/login">Candidate Sign In</a></li>
+            <li><a routerLink="/auth/register">New Applicant Registration</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact-col">
+          <h4 class="f-col-title">Campus &amp; Admissions Office</h4>
+          <address class="f-contact">
+            <p>📍 Sector V, Salt Lake Electronics Complex</p>
+            <p>Kolkata, West Bengal &bull; PIN: 700091</p>
+            <p>📧 Email: admissions&#64;iem.edu</p>
+            <p>📞 Admission Desk Helpline (10:00 AM &ndash; 5:00 PM IST)</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Institute of Engineering &amp; Management (IEM). All Rights Reserved. &bull; Official Online Admission Portal</p>
+      </div>
+    </div>
+  </footer>
+</div>
