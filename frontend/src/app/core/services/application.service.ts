@@ -9,7 +9,7 @@ import { AdmissionApplication } from '../models/application.model';
 })
 export class ApplicationService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/applications';
+  private readonly API_URL = 'https://iem-admission-system-y2pf.onrender.com/api/applications';
 
   public submitApplication(applicationData: AdmissionApplication): Observable<ApiResponse<AdmissionApplication>> {
     return this.http.post<ApiResponse<AdmissionApplication>>(this.API_URL, applicationData);

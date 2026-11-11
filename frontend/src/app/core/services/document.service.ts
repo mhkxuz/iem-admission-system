@@ -9,7 +9,7 @@ import { UploadedDocument, DocumentVerificationHistory } from '../models/documen
 })
 export class DocumentService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/documents';
+  private readonly API_URL = 'https://iem-admission-system-y2pf.onrender.com/api/documents';
 
   /**
    * Upload document with multipart/form-data

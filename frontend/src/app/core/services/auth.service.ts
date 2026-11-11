@@ -11,7 +11,7 @@ export class AuthService {
   private http = inject(HttpClient);
   private router = inject(Router);
 
-  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/auth';
+  private readonly API_URL = 'https://iem-admission-system-y2pf.onrender.com/api/auth';
   private readonly TOKEN_KEY = 'iem_auth_token';
   private readonly USER_KEY = 'iem_auth_user';
 

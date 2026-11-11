@@ -12,7 +12,7 @@ import { FeeStructure } from '../models/fee.model';
 export class PublicAdmissionService {
   private http = inject(HttpClient);
 
-  private readonly API_BASE = 'https://iem-admission-system-v2pf.onrender.com/api';
+  private readonly API_BASE = 'https://iem-admission-system-y2pf.onrender.com/api';
 
   /**
    * Fetch the currently active admission session and application availability window.

@@ -15,7 +15,7 @@ import {
 })
 export class MeritService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'https://iem-admission-system-v2pf.onrender.com/api/merit';
+  private readonly API_URL = 'https://iem-admission-system-y2pf.onrender.com/api/merit';
 
   /**
    * Save or update programme-specific merit scoring configuration
